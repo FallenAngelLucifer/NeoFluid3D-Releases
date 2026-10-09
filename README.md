@@ -1,8 +1,8 @@
-# NeoFluid3D — Portal Oficial de Distribución y Entregables
+# NeoFluid3D — Portal Oficial de Distribución (Releases)
 
-Bienvenido al repositorio oficial de distribución y entrega técnica de **NeoFluid3D**, un motor de simulación hidrodinámica computacional (SPH) y reconstrucción volumétrica tridimensional en tiempo real, desarrollado sobre **Vulkan 1.3** y **C++20**.
+Bienvenido al repositorio oficial de distribución técnica de **NeoFluid3D**, un motor de simulación hidrodinámica computacional (SPH) y reconstrucción volumétrica tridimensional en tiempo real, desarrollado sobre **Vulkan 1.3** y **C++20**.
 
-Este repositorio público tiene como propósito exclusivo albergar los **paquetes ejecutables autónomos precompilados (*Releases*)** y la **documentación formal de los entregables de desarrollo**, garantizando un canal de acceso público, transparente y auditable para evaluadores y usuarios.
+Este repositorio público tiene como propósito exclusivo albergar los **paquetes ejecutables autónomos precompilados (*Releases*)**, garantizando un canal de acceso público, transparente y auditable para usuarios y evaluadores.
 
 ---
 
@@ -35,19 +35,6 @@ cd NeoFluid3D-v0.2.0-alpha
 # 3. O ejecutar la suite de validación física formal (genera reports/validation.html)
 ./run_validation.sh
 ```
-
----
-
-## Documentación Formal de Entregables (Norma APA 7)
-
-En la carpeta [`Entregables/`](Entregables/) se encuentran los cuatro documentos de evaluación técnica redactados bajo estándares de formato académico APA 7 (Times New Roman 12 pt, interlineado 1.5, tablas normadas y ecuaciones matemáticas):
-
-| # | Entregable Técnico | Formato Word (.docx) | Formato Markdown (.md) | Descripción |
-|:---:|---|:---:|:---:|---|
-| **1** | **Despliegue a Entorno Público Funcional** | [Descargar .docx](Entregables/01_Despliegue_a_Entorno_Publico_Funcional.docx) | [Ver .md](Entregables/01_Despliegue_a_Entorno_Publico_Funcional.md) | Homologación de build instalable y persistencia desacoplada de simulación (VTK, ParaView). |
-| **2** | **Validación Funcional en Entorno Real** | [Descargar .docx](Entregables/02_Validacion_Funcional_en_Entorno_Real.docx) | [Ver .md](Entregables/02_Validacion_Funcional_en_Entorno_Real.md) | Flujo principal de valor del solver y resultados de 5 experimentos canónicos CFD (**5/5 aprobados**). |
-| **3** | **Documentación del Proceso de Despliegue** | [Descargar .docx](Entregables/03_Documentacion_del_Proceso_de_Despliegue.docx) | [Ver .md](Entregables/03_Documentacion_del_Proceso_de_Despliegue.md) | Guía de requisitos de hardware, herramientas empleadas e instalación de cero impacto. |
-| **4** | **Manejo de Errores y Logs en Producción** | [Descargar .docx](Entregables/04_Manejo_de_Errores_y_Logs_en_Produccion.docx) | [Ver .md](Entregables/04_Manejo_de_Errores_y_Logs_en_Produccion.md) | Tolerancia a fallos de GPU, control de estabilidad CFL y diagnóstico integral del sistema. |
 
 ---
 
