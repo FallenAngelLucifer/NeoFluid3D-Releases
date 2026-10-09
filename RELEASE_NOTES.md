@@ -10,7 +10,6 @@
 * **NeoFluidValidation:** Módulo de pruebas formales desatendidas que verifica los 5 experimentos canónicos de fluidos (100% aprobados).
 * **Shaders SPIR-V Precompilados:** Módulos de cómputo en VRAM de fuerzas SPH, advección, densidad y Marching Cubes (cero dependencias de SDK en la máquina destino).
 * **Modelos Geométricos y Configuraciones:** Escenarios canónicos de prueba (.obj y campos de distancia .nfsdf).
-* **Documentación APA 7:** Los cuatro documentos formales de entrega en formato Word (.docx) y Markdown (.md).
 
 ---
 
