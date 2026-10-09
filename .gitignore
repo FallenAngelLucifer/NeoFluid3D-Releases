@@ -1,0 +1,8 @@
+# Archivos temporales y de bloqueo
+.~lock.*
+*.tmp
+*.bak
+
+# Binarios de distribución (se alojan en GitHub Releases, no en commits)
+*.tar.gz
+*.zip
